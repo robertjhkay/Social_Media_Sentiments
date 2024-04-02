@@ -458,7 +458,7 @@ plt.savefig('plot1.png')
 
 
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_8_0.png)
+![Plot Title](plot1.png)
     
 
 
@@ -508,7 +508,7 @@ plt.savefig('plot2.png')
 
 
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_11_0.png)
+![Plot Title](plot2.png)
     
 
 
@@ -540,7 +540,7 @@ plt.savefig('plot3.png')
 
 
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_13_0.png)
+![Plot Title](plot3.png)
     
 
 
@@ -558,7 +558,7 @@ plt.savefig('plot4.png')
 
 
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_14_0.png)
+![Plot Title](plot4.png)
     
 
 
@@ -1108,8 +1108,7 @@ plt.savefig('plot6.png')
 
 
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_19_0.png)
-    
+![Plot Title](plot6.png)
 
 
 
