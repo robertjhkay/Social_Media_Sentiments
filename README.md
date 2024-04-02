@@ -458,7 +458,7 @@ plt.savefig('plot1.png')
 
 
     
-![Plot Title](plot1.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_8_0.png)
     
 
 
@@ -499,21 +499,17 @@ plt.title('Distribution of Countries')
 plt.xlabel('Country')
 plt.ylabel('Count')
 
-# Show the plot
-plt.show()
-
 # Saving the plot to an image file
 plt.savefig('plot2.png')
+
+# Show the plot
+plt.show()
 ```
 
 
     
-![Plot Title](plot2.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_11_0.png)
     
-
-
-
-    <Figure size 640x480 with 0 Axes>
 
 
 From this we can see that although many countries have entries, the majority (over two-thirds) comes from the top 5. This maybe because the platforms we have extracted data from are prosperous in these countries and not in the others. China, for example, has a very small presence here.
@@ -531,21 +527,17 @@ plt.title('Distribution of Platform')
 plt.xlabel('Platform')
 plt.ylabel('Count')
 
-# Show the plot
-plt.show()
-
 # Saving the plot to an image file
 plt.savefig('plot3.png')
+
+# Show the plot
+plt.show()
 ```
 
 
     
-![Plot Title](plot3.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_13_0.png)
     
-
-
-
-    <Figure size 640x480 with 0 Axes>
 
 
 
@@ -558,7 +550,7 @@ plt.savefig('plot4.png')
 
 
     
-![Plot Title](plot4.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_14_0.png)
     
 
 
@@ -574,11 +566,11 @@ plt.xlabel('Year')
 plt.ylabel('Counts')
 plt.grid(True)
 plt.legend()
-plt.show()
 
 # Saving the plot to an image file
 plt.savefig('plot5.png')
 
+plt.show()
 ```
 
 
@@ -1099,20 +1091,17 @@ plt.xticks(rotation=90)
 # Add colorbar
 fig.colorbar(im)
 
-# Display the plot
-plt.show()
-
 # Saving the plot to an image file
 plt.savefig('plot6.png')
+
+# Display the plot
+plt.show()
 ```
 
 
     
-![Plot Title](plot6.png)
-
-
-
-    <Figure size 640x480 with 0 Axes>
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_19_0.png)
+    
 
 
 ***Final Conclusions:***
@@ -1120,3 +1109,4 @@ plt.savefig('plot6.png')
 - There is an incredibly strong linear relationship between 'Likes' and 'Retweets'.
 - Usage over the years has been very similar across the platforms
 - USA favors 'Instagram' whist Canada has no real preference
+
