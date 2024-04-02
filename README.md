@@ -451,18 +451,14 @@ social_media_df[['Retweets','Likes']].corr()
 
 ```python
 sns.regplot(x="Retweets", y="Likes", data = social_media_df)
+
+# Saving the plot to an image file
+plt.savefig('plot1.png')
 ```
 
 
-
-
-    <Axes: xlabel='Retweets', ylabel='Likes'>
-
-
-
-
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_8_1.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_8_0.png)
     
 
 
@@ -505,12 +501,19 @@ plt.ylabel('Count')
 
 # Show the plot
 plt.show()
+
+# Saving the plot to an image file
+plt.savefig('plot2.png')
 ```
 
 
     
 ![png](Social_Media_Sentiments_files/Social_Media_Sentiments_11_0.png)
     
+
+
+
+    <Figure size 640x480 with 0 Axes>
 
 
 From this we can see that although many countries have entries, the majority (over two-thirds) comes from the top 5. This maybe because the platforms we have extracted data from are prosperous in these countries and not in the others. China, for example, has a very small presence here.
@@ -530,6 +533,9 @@ plt.ylabel('Count')
 
 # Show the plot
 plt.show()
+
+# Saving the plot to an image file
+plt.savefig('plot3.png')
 ```
 
 
@@ -539,20 +545,20 @@ plt.show()
 
 
 
+    <Figure size 640x480 with 0 Axes>
+
+
+
 ```python
 sns.boxplot(x="Platform", y="Likes", data = social_media_df)
+
+# Saving the plot to an image file
+plt.savefig('plot4.png')
 ```
 
 
-
-
-    <Axes: xlabel='Platform', ylabel='Likes'>
-
-
-
-
     
-![png](Social_Media_Sentiments_files/Social_Media_Sentiments_14_1.png)
+![png](Social_Media_Sentiments_files/Social_Media_Sentiments_14_0.png)
     
 
 
@@ -570,12 +576,19 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
+# Saving the plot to an image file
+plt.savefig('plot5.png')
+
 ```
 
 
     
 ![png](Social_Media_Sentiments_files/Social_Media_Sentiments_15_0.png)
     
+
+
+
+    <Figure size 640x480 with 0 Axes>
 
 
 Several key insights from the data analysis:
@@ -1088,6 +1101,9 @@ fig.colorbar(im)
 
 # Display the plot
 plt.show()
+
+# Saving the plot to an image file
+plt.savefig('plot6.png')
 ```
 
 
@@ -1096,20 +1112,12 @@ plt.show()
     
 
 
+
+    <Figure size 640x480 with 0 Axes>
+
+
 ***Final Conclusions:***
 - The top five countries for using 'Instagram', 'Twitter', and 'Facebook' are the USA, UK, Australia, Canada, and India.
 - There is an incredibly strong linear relationship between 'Likes' and 'Retweets'.
 - Usage over the years has been very similar across the platforms
 - USA favors 'Instagram' whist Canada has no real preference
- of posts garnering significant engagement.
-- **Twitter's Dominance:** Despite Instagram's higher engagement metrics, Twitter emerges as the most popular platform over the years.
-- **Similar User Behavior Across Platforms:** Despite differences in popularity and engagement levels, all platforms exhibit a similar user engagement profile.
-
-These insights offer valuable guidance for strategic decision-making in content creation, platform selection, and audience engagement strategies.
-
-## Conclusions
-
-- The top five countries for using 'Instagram,' 'Twitter,' and 'Facebook' are the USA, UK, Australia, Canada, and India.
-- A strong linear relationship exists between 'Likes' and 'Retweets.'
-- Platform usage remains consistent across the years.
-- The USA shows a preference for 'Instagram,' while Canada exhibits no significant platform preference.
